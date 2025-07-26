@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Request Food</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h2>Request Food</h2>
+    <form>
+      <div class="mb-3">
+        <label for="foodCategory" class="form-label">Food Category</label>
+        <input type="text" class="form-control" id="foodCategory" required>
+      </div>
+      <div class="mb-3">
+        <label for="quantity" class="form-label">Quantity Needed</label>
+        <input type="number" class="form-control" id="quantity" required>
+      </div>
+      <div class="mb-3">
+        <label for="reason" class="form-label">Reason for Request</label>
+        <textarea class="form-control" id="reason" rows="3" required></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="contact" class="form-label">Contact Info</label>
+        <input type="text" class="form-control" id="contact" required>
+      </div>
+      <button type="submit" class="btn btn-success">Submit Request</button>
+    </form>
+  </div>
+  <script src="js/request.js"></script>
+</body>
+</html>
